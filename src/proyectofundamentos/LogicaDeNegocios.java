@@ -28,7 +28,7 @@ public class LogicaDeNegocios {
     }
 
     public static String mostrarMenu() {
-        String resultado = "";
+        String resultado = "Hola";
         resultado += "#########################################################################" + "\n";
         resultado += " Digite (1~" + COLUMNAS + ") para seleccionar la columna  donde desea poner su ficha " + "\n";
         resultado += " Presione la tecla 'Escape' para retirarse                            " + "\n";
@@ -78,8 +78,8 @@ public class LogicaDeNegocios {
             resultado += "\n";
         }
         resultado += "\n\n";
-        resultado += "Fichas rojas restantes: " + movimientosRestantesFichasRojas + "\n";
-        resultado += "Fichas amarillas restantes: " + movimientosRestantesFichasAmarillas + "\n";
+        resultado += "Fichas rojas restantes: " + movimientosRestantesFichasRojas + ".\n";
+        resultado += "Fichas amarillas restantes: " + movimientosRestantesFichasAmarillas + ".\n";
         resultado += "\n\n";
         return resultado;
     }

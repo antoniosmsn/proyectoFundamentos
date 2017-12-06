@@ -27,6 +27,7 @@ public class IUProyectoFundamentos {
        out.print(LogicaDeNegocios.mostrarMenu());
        
        out.print(LogicaDeNegocios.mostrarJuegoResultante());
+       
     }
 
 }
